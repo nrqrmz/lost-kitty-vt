@@ -8,7 +8,7 @@
   <%= f.label :species %>
   <%= f.select :species, Pet::SPECIES %>
   <%= f.label :found_on %>
-  <%= f.date_field :found_on %>
+  <%= f.date_field :found_on %> <!-- date_field is the format supported to create a new pet -->
   <%= f.submit %>
 <% end %>
 
