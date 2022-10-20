@@ -1,4 +1,4 @@
-<h1>New Pet</h1>
+<h1>Edit Pet</h1>
 
 <%= form_with model: @pet do |f| %>
   <%= f.label :name %>
@@ -14,4 +14,4 @@
 
 <br>
 <hr>
-<%= link_to 'back home', pets_path %>
+<%= link_to 'cancel', pet_path(@pet) %>
